@@ -288,12 +288,14 @@ nav .menu ul li span{
     background-color: var(--secondarycolor);
     color: var(--primarycolor);
     margin-right: 10px;
+    font-weight: 500;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     
 
 }
 #about .about_us .read{
     background-color: #ffffff;
+    font-weight: 500;
     transition: .5s;
     
 }
