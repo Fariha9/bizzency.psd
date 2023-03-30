@@ -384,6 +384,8 @@ nav  .menu ul li .search{
 {
     width: 50%;
     text-align: left;
+    font-size: 15px;
+    font_weight:bold;
   }
 #Photoshop h4,
 #Illustrator h4,
@@ -391,12 +393,8 @@ nav  .menu ul li .search{
 #AfterEffects h4{
     width: 50%;
     text-align: right;
-}
- 
-  
-#Photoshop{
-    width: 90%;
-    border-radius: 5px;
+    font-size:15px;
+    font-weight:bold;
 }
 
 .progressImg{
@@ -413,6 +411,10 @@ nav  .menu ul li .search{
     border-radius: 10%;
 }
   
+#Photoshop{
+    width: 90%;
+    margin: 5px 0px;
+}
 #Photoshop .progressBar{
     background: var(--primarycolor);
     width: 90%;
@@ -426,7 +428,6 @@ nav  .menu ul li .search{
 
 #Illustrator{
     width: 90%;
-    border-radius: 5px;
     margin: 5px 0px;
 }
 
@@ -444,7 +445,7 @@ nav  .menu ul li .search{
 
 #DreamWeaver{
     width: 90%;
-    border-radius: 5px;
+    margin: 5px 0px;
 }
 
 
@@ -461,6 +462,7 @@ nav  .menu ul li .search{
 
 #AfterEffects{
     width: 90%;
+    margin: 5px 0px;
     
 }
 
