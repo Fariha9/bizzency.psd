@@ -360,7 +360,10 @@ nav  .menu ul li .search{
 #skills .skills_img img{
     width: 100%;
 }
-#skills .skills_img,
+#skills .skills_img{
+width:50%;
+padding:0px 20px;
+}
 #skills .skills_text{
     width: 50%;
    
