@@ -379,11 +379,106 @@ nav  .menu ul li .search{
     font-weight: 400;
     font-size: 16px;
 }
-#skils .skills_text .progress_bar{
+#Photoshop h3,
+#Illustrator h3,
+#DreamWeaver h3,
+#AfterEffects h3
+{
+    width: 50%;
+    text-align: left;
+  }
+#Photoshop h4,
+#Illustrator h4,
+#DreamWeaver h4,
+#AfterEffects h4{
+    width: 50%;
     text-align: right;
-    display: inline-block;
+}
+ 
+  
+#Photoshop{
+    width: 90%;
+    border-radius: 5px;
+}
+
+.progressImg{
+    padding: 15px 0px 0px 10px;
+}
+.progressImg img{
+    width: 35px;
+    height: 35px;
+}
+
+.goalProgress{
+    background: #f7f7f7;
+    width: 100%;
+    border-radius: 10%;
+}
+  
+#Photoshop .progressBar{
+    background: var(--primarycolor);
+    width: 90%;
+    font-size: 0px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    padding: 5px;
+    display: block;
+    overflow: hidden;
+}
+
+#Illustrator{
+    width: 90%;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+  
+#Illustrator .progressBar{
+    background: #6E2C00 ;
+    width: 90%;
+    font-size: 0px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    padding: 5px;
+    display: block;
+    overflow: hidden;
+}
+
+#DreamWeaver{
+    width: 90%;
+    border-radius: 5px;
+}
+
+
+#DreamWeaver .progressBar{
+    background: #145A32;
+    width: 75%;
+    font-size: 0px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    padding: 5px;
+    display: block;
+    overflow: hidden;
+}
+
+#AfterEffects{
+    width: 90%;
     
 }
+
+
+  
+#AfterEffects .progressBar{
+    background: #5B2C6F ;
+    width: 80%;
+    font-size: 0px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    padding: 5px;
+    display: block;
+    overflow: hidden;
+}
+
 /* skills ends */
 
 /* services starts */
