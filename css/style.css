@@ -353,12 +353,10 @@ nav  .menu ul li .search{
 
 /* skills starts */
 #skills{
-    
     width: 100%;
+    padding:100px 0px;
 }
-#skills .row{
-    height: 750px;
-}
+
 #skills .skills_img img{
     width: 100%;
 }
