@@ -42,6 +42,36 @@ $(function (){
         });
         searchBtn.fadeIn()
     })
+    
+    $("#Photoshop").goalProgress({
+    goalPercentage: 100,
+    currentPercentage: 90,
+    speed: 1000,
+    float: 'right',
+    textAfter: '%'
+    });
+    $("#Illustrator").goalProgress({
+        goalPercentage: 100,
+        currentPercentage: 85,
+        speed: 1000,
+        float: 'right',
+        textAfter: '%'
+        });
+    $("#DreamWeaver").goalProgress({
+         goalPercentage: 100,
+         currentPercentage: 75,
+         speed: 1000,
+         float: 'right',
+         textAfter: '%'
+    });
+     $("#AfterEffects").goalProgress({
+        goalPercentage: 100,
+        currentPercentage: 80,
+        speed: 1000,
+        float: 'right',
+        textAfter: '%'
+        });
+   
 
 
 
